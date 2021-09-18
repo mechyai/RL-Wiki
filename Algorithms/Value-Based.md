@@ -1,12 +1,11 @@
 # Q-Learning
 ### General
 - Classic Q-value update; different details and viewpoints
-  - ![](https://ethics-of-ai.mooc.fi/cafbf143afe0e7a7325e178699ca7582/q-learning.svg)
   - ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/678cb558a9d59c33ef4810c9618baf34a9577686)
   - ![](https://miro.medium.com/max/6000/1*VItpGaVoIUnh0RUEArqSGQ.png)
   - ![](https://i.stack.imgur.com/OMzXf.png)
 - DQN update; squared TD error loss function
-  - ![](https://user-images.githubusercontent.com/65429130/133897695-f63debb2-1fda-4353-9569-2a6a22257abc.png)
+  - ![](https://user-images.githubusercontent.com/65429130/133897695-f63debb2-1fda-4353-9569-2a6a22257abc.png){:height="50%" width="50%"}
   - ![](https://miro.medium.com/max/1176/1*ZbMDCGGQWEcgsNxInpb5gA.png)
 
 ## Double Q-Learning (& DQN)
