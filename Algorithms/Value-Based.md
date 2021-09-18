@@ -1,4 +1,9 @@
 # Q-Learning
+### General
+- Same Q-value update, different details and viewpoints
+  - ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/678cb558a9d59c33ef4810c9618baf34a9577686)
+  - ![](https://miro.medium.com/max/6000/1*VItpGaVoIUnh0RUEArqSGQ.png)
+  - ![](https://i.stack.imgur.com/OMzXf.png)
 
 ## Double Q-Learning (& DQN)
 ### General
@@ -18,6 +23,6 @@
     - 3 use QB(s',a*) as the TD target in the the boostrapped update for QA(s,a)
     - (Repeat Q-value update for either QA or QB _at random_, for QB(s,a) do this vice versa)
     - ![](https://i2.wp.com/rubikscode.net/wp-content/uploads/2020/01/image.png?resize=492%2C52&ssl=1)
-  - <ins>How?</ins>: in the paper, it is mathematically proven that the expected value for QB(s',a*) is less than or equal to the maximum value at QA(s',A) -> QA(s',a*). Therefore, through many iterations, QA(s,a) is not updated maximally and is NOT overestimated) 
+  - <ins>How?</ins>: in the paper, it is mathematically proven that the expected value for QB(s',a*) is less than or equal to the maximum value at QA(s',A) -> QA(s',a*). Therefore, through many iterations, QA(s,a) is not updated maximally and is NOT overestimated
   - The rest of this article goes into detail on the algorithm's pseudocode and Python TensorFlow implementations of double Q-learning and DQN
 
