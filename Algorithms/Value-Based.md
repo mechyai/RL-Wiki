@@ -5,7 +5,7 @@
   - ![](https://miro.medium.com/max/6000/1*VItpGaVoIUnh0RUEArqSGQ.png)
   - ![](https://i.stack.imgur.com/OMzXf.png)
 - DQN update; squared TD error loss function
-  - ![](https://user-images.githubusercontent.com/65429130/133897695-f63debb2-1fda-4353-9569-2a6a22257abc.png){:height="50%" width="50%"}
+  - <img src="https://user-images.githubusercontent.com/65429130/133897695-f63debb2-1fda-4353-9569-2a6a22257abc.png" width="50" height="50"}
   - ![](https://miro.medium.com/max/1176/1*ZbMDCGGQWEcgsNxInpb5gA.png)
 
 ## Double Q-Learning (& DQN)
