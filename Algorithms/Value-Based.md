@@ -4,7 +4,7 @@
   - ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/678cb558a9d59c33ef4810c9618baf34a9577686)
   - ![](https://miro.medium.com/max/6000/1*VItpGaVoIUnh0RUEArqSGQ.png)
   - ![](https://i.stack.imgur.com/OMzXf.png)
-- DQN update; squared TD error loss function
+- DQN update; squared TD error loss function using target network and actor
   - <img src="https://user-images.githubusercontent.com/65429130/133897695-f63debb2-1fda-4353-9569-2a6a22257abc.png" width="50%" height="50%">
   - ![](https://miro.medium.com/max/1176/1*ZbMDCGGQWEcgsNxInpb5gA.png)
 
