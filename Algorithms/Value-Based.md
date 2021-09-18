@@ -11,4 +11,6 @@
     - 1 find a* that maximizes QA(s',A)
     - 2 use a* to get QB(s',a*)
     - 3 use QB(s',a*) as the TD target in the the boostrapped update for QA(s,a)
+    - (do this vice versa for QB(s,a)
+    - ![](https://i2.wp.com/rubikscode.net/wp-content/uploads/2020/01/image.png?resize=492%2C52&ssl=1)
 
