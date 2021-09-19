@@ -2,9 +2,9 @@
 ### General
 - **Bellman Equation** for Q-Learning
   - This recursive relation for the Q-value of a state-action pair is what the classical Q-learning and DQN Q-function algorithms are trying to learn, through boostrapping and temporal difference learning. Once the Q-function is sufficiently learned, the agent can act optimally by selecting actions with the maximal Q-value for each state.
-  - <img src="https://miro.medium.com/max/1400/1*lTVHyzT3d26Bd_znaKaylQ.png" width="50%" height="50%"
+  - <img src="https://miro.medium.com/max/1400/1*lTVHyzT3d26Bd_znaKaylQ.png" width="50%" height="50%">
   - Classic Q-value update; different details and viewpoints
-    - <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/678cb558a9d59c33ef4810c9618baf34a9577686" style="background-color:red;padding:20px;">
+    - <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/678cb558a9d59c33ef4810c9618baf34a9577686" style="background-color:white;padding:20px;">
     - ![](https://miro.medium.com/max/6000/1*VItpGaVoIUnh0RUEArqSGQ.png)
     - ![](https://i.stack.imgur.com/OMzXf.png)
   - DQN update; squared TD error loss function using target and policy network to push the network towards satisfying the Bellman Equation for Q-Learning
