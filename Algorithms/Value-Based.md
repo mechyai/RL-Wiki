@@ -31,6 +31,7 @@
 - [Double Q-Learning, 2010, Hado van Hasselt](https://proceedings.neurips.cc/paper/2010/file/091d584fced301b442654dd8c23b3fc9-Paper.pdf)
   - The original paper that addresses the issue, and includes mathematical proofs for a solution
 ### YouTube
+  - [Increasing Training Stability with Double DQNs](https://www.youtube.com/watch?v=ILDLT97FsNM&t=398s) by TheComputerScientist
 ### Articles
 - [Double Q-Learning & Double DQN with Python and TensorFlow](https://rubikscode.net/2021/07/20/introduction-to-double-q-learning/ )
   - A good background of the maximization problem, solution with Double DQN, and implementation
