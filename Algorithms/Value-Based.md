@@ -5,7 +5,7 @@
   - <img src="https://miro.medium.com/max/1400/1*lTVHyzT3d26Bd_znaKaylQ.png" width="50%" height="50%">
 - Classic Q-value update; different details and viewpoints
   - This algorithm is useful for discrete state/action environments, with low dimensionality, and off-policy and online or offline implementations. 
-  - <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/678cb558a9d59c33ef4810c9618baf34a9577686" style="background-color:white;padding:20px;">
+  - <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/678cb558a9d59c33ef4810c9618baf34a9577686" width="75%" height="75%">
   - <img src="https://miro.medium.com/max/6000/1*VItpGaVoIUnh0RUEArqSGQ.png" width="75%" height="75%">
   - <img src="https://i.stack.imgur.com/OMzXf.png" width="75%" height="75%">
   - <img src="https://miro.medium.com/max/1838/1*7AWfjw8YDfoRqnIO71DjiA.png" width="75%" height="75%">
