@@ -3,13 +3,18 @@
 - **Bellman Equation** for Q-Learning
   - This recursive relation for the Q-value of a state-action pair is what the classical Q-learning and DQN Q-function algorithms are trying to learn, through boostrapping and temporal difference learning. Once the Q-function is sufficiently learned, the agent can act optimally by selecting actions with the maximal Q-value for each state.
   - <img src="https://miro.medium.com/max/1400/1*lTVHyzT3d26Bd_znaKaylQ.png" width="50%" height="50%">
-- Classic Q-value update; different details and viewpoints
-  - This algorithm is useful for discrete state/action environments, with low dimensionality, and off-policy and online or offline implementations. 
+- <ins>Classic Q-value update</ins>
+  - This algorithm is useful for discrete state/action environments, with low dimensionality, and off-policy and online or offline implementations.
+  - (below, different details and viewpoints of the same learning update) 
   - <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/678cb558a9d59c33ef4810c9618baf34a9577686" width="75%" height="75%">
   - <img src="https://miro.medium.com/max/6000/1*VItpGaVoIUnh0RUEArqSGQ.png" width="75%" height="75%">
   - <img src="https://i.stack.imgur.com/OMzXf.png" width="75%" height="75%">
   - <img src="https://miro.medium.com/max/1838/1*7AWfjw8YDfoRqnIO71DjiA.png" width="75%" height="75%">
-- DQN update; squared TD error loss function using target and policy network to push the network towards satisfying the Bellman Equation for Q-Learning
+- DQN update
+  - Below, squared TD error is the loss function using target (static) and policy (learned) network to push the network towards satisfying the Bellman Equation
+  - Two Q-networks are used to help the optimization avoid "chasing its own tail". If only 1 network is used, every update to Q(s,a) (comptuted with Qmax(s',A)) will update Qmax(s',A) further away from satisfying the Bellman Equation.
+  - If we have a network that we hold static (Target Network) for X episodes and use it to calculate Q(s',a*), our optimization has stationary points to optimize for. Then, every X episodes, we will update the Target Network with the parameters of the current learned Policy Network.
+  - In further sections below, we will add improvements to this vanilla DQN framework. 
   - <img src="https://user-images.githubusercontent.com/65429130/133897695-f63debb2-1fda-4353-9569-2a6a22257abc.png" width="30%" height="30%">
   - ![](https://miro.medium.com/max/1176/1*ZbMDCGGQWEcgsNxInpb5gA.png)
 
