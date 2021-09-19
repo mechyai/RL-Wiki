@@ -1,12 +1,15 @@
 # Q-Learning
 ### General
-- Classic Q-value update; different details and viewpoints
-  - ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/678cb558a9d59c33ef4810c9618baf34a9577686)
-  - ![](https://miro.medium.com/max/6000/1*VItpGaVoIUnh0RUEArqSGQ.png)
-  - ![](https://i.stack.imgur.com/OMzXf.png)
-- DQN update; squared TD error loss function using target network and actor
-  - <img src="https://user-images.githubusercontent.com/65429130/133897695-f63debb2-1fda-4353-9569-2a6a22257abc.png" width="30%" height="30%">
-  - ![](https://miro.medium.com/max/1176/1*ZbMDCGGQWEcgsNxInpb5gA.png)
+- Bellman Equation for Q-Learning
+  - This recursive relation for the Q-value of a state-action pair is what the classical Q-learning and DQN Q-function algorithms are trying to learn, through boostrapping and temporal difference learning. Once the Q-function is sufficiently learned, the agent can act optimally by selecting actions with the maximal Q-value for each state.
+  - ![](https://miro.medium.com/max/1400/1*lTVHyzT3d26Bd_znaKaylQ.png)
+  - Classic Q-value update; different details and viewpoints
+    - <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/678cb558a9d59c33ef4810c9618baf34a9577686" style="background-color:red;padding:20px;">
+    - ![](https://miro.medium.com/max/6000/1*VItpGaVoIUnh0RUEArqSGQ.png)
+    - ![](https://i.stack.imgur.com/OMzXf.png)
+  - DQN update; squared TD error loss function using target and policy network to push the network towards satisfying the Bellman Equation for Q-Learning
+    - <img src="https://user-images.githubusercontent.com/65429130/133897695-f63debb2-1fda-4353-9569-2a6a22257abc.png" width="30%" height="30%">
+    - ![](https://miro.medium.com/max/1176/1*ZbMDCGGQWEcgsNxInpb5gA.png)
 
 ## Double Q-Learning (& DQN)
 ### General
