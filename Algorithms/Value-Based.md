@@ -5,9 +5,9 @@
   - <img src="https://miro.medium.com/max/1400/1*lTVHyzT3d26Bd_znaKaylQ.png" width="50%" height="50%">
   - Classic Q-value update; different details and viewpoints
     - <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/678cb558a9d59c33ef4810c9618baf34a9577686" style="background-color:white;padding:20px;">
-    - ![](https://miro.medium.com/max/6000/1*VItpGaVoIUnh0RUEArqSGQ.png)
-    - ![](https://i.stack.imgur.com/OMzXf.png)
-    - ![](https://miro.medium.com/max/1838/1*7AWfjw8YDfoRqnIO71DjiA.png)
+    - <img src="https://miro.medium.com/max/6000/1*VItpGaVoIUnh0RUEArqSGQ.png" width="75%" height="75%">
+    - <img src="https://i.stack.imgur.com/OMzXf.png" width="75%" height="75%">
+    - <img src="https://miro.medium.com/max/1838/1*7AWfjw8YDfoRqnIO71DjiA.png" width="75%" height="75%">
   - DQN update; squared TD error loss function using target and policy network to push the network towards satisfying the Bellman Equation for Q-Learning
     - <img src="https://user-images.githubusercontent.com/65429130/133897695-f63debb2-1fda-4353-9569-2a6a22257abc.png" width="30%" height="30%">
     - ![](https://miro.medium.com/max/1176/1*ZbMDCGGQWEcgsNxInpb5gA.png)
