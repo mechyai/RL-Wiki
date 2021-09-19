@@ -10,7 +10,7 @@
   - <img src="https://miro.medium.com/max/6000/1*VItpGaVoIUnh0RUEArqSGQ.png" width="75%" height="75%">
   - <img src="https://i.stack.imgur.com/OMzXf.png" width="75%" height="75%">
   - <img src="https://miro.medium.com/max/1838/1*7AWfjw8YDfoRqnIO71DjiA.png" width="75%" height="75%">
-- DQN update
+- <ins>DQN update</ins>
   - Below, squared TD error is the loss function using target (static) and policy (learned) network to push the network towards satisfying the Bellman Equation
   - Two Q-networks are used to help the optimization avoid "chasing its own tail". If only 1 network is used, every update to Q(s,a) (comptuted with Qmax(s',A)) will update Qmax(s',A) further away from satisfying the Bellman Equation.
   - If we have a network that we hold static (Target Network) for X episodes and use it to calculate Q(s',a*), our optimization has stationary points to optimize for. Then, every X episodes, we will update the Target Network with the parameters of the current learned Policy Network.
@@ -42,3 +42,8 @@
   - A good background of the maximization problem, solution with Double DQN, and implementation
   - The rest of this article goes into detail on the algorithm's pseudocode and Python TensorFlow implementations of double Q-learning and DQN
 
+## Dueling DQN
+### General
+### Research Papers
+### YouTube
+### Articles
