@@ -20,8 +20,7 @@
 
 ### Deep Q-Learning Components
 1. Experience Replay, Fixed Q-targets - [__Playing Atari with Deep Reinforcement Learning__](https://arxiv.org/abs/1312.5602) (Mnih et.al, 2013, DeepMind)
-1. Double DQN - [__Deep Reinforcement Learning with Double Q-Learning__](https://arxiv.org/abs/1509.06461) (van Hasselt et. al, 2015, DeepMind)
-    - ##double-q-learning--dqn
+1. [Double DQN](##double-q-learning--dqn) - [__Deep Reinforcement Learning with Double Q-Learning__](https://arxiv.org/abs/1509.06461) (van Hasselt et. al, 2015, DeepMind)
 3. Dueling DQN - [__Dueling Network Achitectures for Deep Reinforcement Learning__](https://arxiv.org/abs/1511.06581) (Wang et. al, 2016, DeepMind)
 4. Branching DQN - [__Action Branching Architectures for Deep Reinforcement Learning__](https://arxiv.org/abs/1711.08946) (Tavakoli et. al, 2019)
 - (more...)
