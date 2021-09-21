@@ -18,6 +18,14 @@
   - <img src="https://user-images.githubusercontent.com/65429130/133897695-f63debb2-1fda-4353-9569-2a6a22257abc.png" width="30%" height="30%">
   - ![](https://miro.medium.com/max/1176/1*ZbMDCGGQWEcgsNxInpb5gA.png)
 
+### Deep Q-Learning Components
+1. Experience Replay, Fixed Q-targets - [__Playing Atari with Deep Reinforcement Learning__](https://arxiv.org/abs/1312.5602) (Mnih et.al, 2013, DeepMind)
+1. Double DQN - [__Deep Reinforcement Learning with Double Q-Learning__](https://arxiv.org/abs/1509.06461) (van Hasselt et. al, 2015, DeepMind)
+1. Dueling DQN - [__Dueling Network Achitectures for Deep Reinforcement Learning__](https://arxiv.org/abs/1511.06581) (Wang et. al, 2016, DeepMind)
+1. Branching DQN - [__Action Branching Architectures for Deep Reinforcement Learning__](https://arxiv.org/abs/1711.08946) (Tavakoli et. al, 2019)
+- (more...)
+
+
 ## Double Q-Learning (& DQN)
 ### General
 - This algorithm is an addtion to Q-learning/DQN for combatting the maximization bias, that leads to overestimating Q-values, by using to Q-functions
