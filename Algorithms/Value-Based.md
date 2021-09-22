@@ -3,7 +3,7 @@
 - **Bellman Equation** for Q-Learning
   - This recursive relation for the Q-value of a state-action pair is what the classical Q-learning and DQN Q-function algorithms are trying to learn, through boostrapping and temporal difference learning. Once the Q-function is sufficiently learned, the agent can act optimally by selecting actions with the maximal Q-value for each state.
   - <img src="https://miro.medium.com/max/1400/1*lTVHyzT3d26Bd_znaKaylQ.png" width="50%" height="50%">
-- <ins>Classic Q-value update</ins>
+- <ins>'Classic' Tabular Q-value update</ins>
   - This algorithm is useful for discrete state/action environments, with low dimensionality, and off-policy and online or offline implementations.
   - (below, different details and viewpoints of the same learning update) 
   - <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/678cb558a9d59c33ef4810c9618baf34a9577686" width="75%" height="75%">
@@ -27,7 +27,6 @@
 4. Reccurent DQN for POMDPs - [__Deep Recurrent Q-Learning for Partially Observable MDPs__](https://arxiv.org/abs/1507.06527) (Hausknecht et. al, 2017)
 5. Branching DQN - [__Action Branching Architectures for Deep Reinforcement Learning__](https://arxiv.org/abs/1711.08946) (Tavakoli et. al, 2019)
 - (more...)
-
 
 ## Double Q-Learning (& DQN)
 ### General
@@ -58,3 +57,6 @@
 ### Research Papers
 ### YouTube
 ### Articles
+
+## Action Branching DQN
+### General
